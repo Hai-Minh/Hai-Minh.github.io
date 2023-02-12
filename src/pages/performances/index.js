@@ -3,16 +3,19 @@ import { PerformanceItem } from "@/components/performance-item";
 import { PerformanceItemContent } from "@/components/performance-item-content";
 import { PerformanceItemImage } from "@/components/performance-item-image";
 import WordAWoman from "@/components/word-a-woman";
+import BackButton from "@/components/back-button";
 
 import imgAWoman from "../../../public/images/perf_a_woman.jpg";
 import imgTamSinh from "../../../public/images/perf_tam_sinh.jpg";
 import imgLego from "../../../public/images/perf_l_ego.jpg";
+import imgCramped from "../../../public/images/perf_cramped.jpg";
 
 export default function PerformancesPage() {
 
     return (
         <div className={styles.container}>
             <div className={styles.content}>
+                <BackButton url="/works" />
                 <h1>Performances</h1>
                 <div className={styles.performanceList}>
                     <PerformanceItem>
@@ -56,6 +59,18 @@ export default function PerformancesPage() {
                             }
                             detailsUrl="/performances/details/l-ego"
                         />
+                    </PerformanceItem>
+                    <PerformanceItem>
+                        <PerformanceItemContent 
+                            title="Chật (Cramped)"
+                            content={
+                                <>
+                                    <span>Chật – is the story on a fragile border, two individuals who have slided pass each other, met, encountered, confronted and found. The narrow and fragile space bundles tightly and compels each individual, in order to maintain their own most essential things, to scramble every bit of space. Thrusting, crushing, kicking until the end of conflict, we are dumbfounded to realize that we are empty and full of hurt. In silence, we empathize ourselves through the eyes of the opposite</span>
+                                </>                            
+                            }
+                            detailsUrl="/performances/details/cramped"
+                        />
+                        <PerformanceItemImage src={imgCramped} />
                     </PerformanceItem>
                 </div>
             </div>
