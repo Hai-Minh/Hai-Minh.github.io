@@ -51,7 +51,7 @@ export default function PerformanceItemDetails() {
                         {
                             data.images.map((item, index) => (
                                 <div key={index} className={styles.imageContainer}>
-                                    <Image src={item} alt="" fill placeholder="blur" />
+                                    <Image src={item} alt="" fill placeholder="blur" priority quality={100} sizes="(max-width: 600px) 400px, (min-width: 601px) 500px"/>
                                 </div>)
                             )
                         }

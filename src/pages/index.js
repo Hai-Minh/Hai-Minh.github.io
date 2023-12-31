@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.background}>
-            <Image src={imgBgHome} alt="" fill placeholder="blur" />
+            <Image src={imgBgHome} alt="" fill placeholder="blur" priority/>
           </div>
           <div className={styles.title}>
             <p>Minh Hai</p>
