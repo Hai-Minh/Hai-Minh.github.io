@@ -9,7 +9,7 @@ export function PerformanceItemContent({ imageSrc, content, title, detailsUrl })
                 <span className={styles.viewMoreButton}>View More</span>
             </Link>
             <div className={styles.performanceItemImage}>
-                <Image src={imageSrc} alt="" fill placeholder="blur" priority/>
+                <Image src={imageSrc} alt="" fill sizes="(max-width: 768px) 80vw, (max-width: 1200px) 48vw, 33vw" priority quality={100} />
             </div>
             <div className={styles.performanceItemContent}>
                 <h2>

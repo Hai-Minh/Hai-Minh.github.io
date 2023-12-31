@@ -1,11 +1,3 @@
-import img0 from "../../../../public/images/choreography/whisper-wind-water/img_0.jpg";
-import img1 from "../../../../public/images/choreography/whisper-wind-water/img_1.jpg";
-import img2 from "../../../../public/images/choreography/whisper-wind-water/img_2.jpg";
-import img3 from "../../../../public/images/choreography/whisper-wind-water/img_3.jpg";
-import img4 from "../../../../public/images/choreography/whisper-wind-water/img_4.jpg";
-import img5 from "../../../../public/images/choreography/whisper-wind-water/img_5.jpg";
-import img6 from "../../../../public/images/choreography/whisper-wind-water/img_6.jpg";
-
 const title = "Thầm Thì Gió Nước (Whisper, Wind, Water)";
 
 const videos = [
@@ -13,13 +5,13 @@ const videos = [
 ];
 
 const images = [
-    img0,
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
+  "/images/choreography/whisper-wind-water/img_0.jpg",
+  "/images/choreography/whisper-wind-water/img_1.jpg",
+  "/images/choreography/whisper-wind-water/img_2.jpg",
+  "/images/choreography/whisper-wind-water/img_3.jpg",
+  "/images/choreography/whisper-wind-water/img_4.jpg",
+  "/images/choreography/whisper-wind-water/img_5.jpg",
+  "/images/choreography/whisper-wind-water/img_6.jpg",
 ];
 
 const description = <>

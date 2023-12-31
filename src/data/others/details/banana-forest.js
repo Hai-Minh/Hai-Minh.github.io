@@ -1,8 +1,3 @@
-import img0 from "../../../../public/images/others/banana-forest/img_0.jpg";
-import img1 from "../../../../public/images/others/banana-forest/img_1.jpg";
-import img2 from "../../../../public/images/others/banana-forest/img_2.jpg";
-import img3 from "../../../../public/images/others/banana-forest/img_3.jpg";
-
 const title = "In The Banana Forest";
 
 const videos = [
@@ -10,10 +5,10 @@ const videos = [
 ];
 
 const images = [
-    img0,
-    img1,
-    img2,
-    img3,
+  "/images/others/banana-forest/img_0.jpg",
+  "/images/others/banana-forest/img_1.jpg",
+  "/images/others/banana-forest/img_2.jpg",
+  "/images/others/banana-forest/img_3.jpg",
 ];
 
 const description = <>

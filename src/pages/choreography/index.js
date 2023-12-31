@@ -1,12 +1,8 @@
-import styles from "@/styles/Performances.module.scss"
+import BackButton from "@/components/back-button";
 import { PerformanceItem } from "@/components/performance-item";
 import { PerformanceItemContent } from "@/components/performance-item-content";
-import BackButton from "@/components/back-button";
-
-import imgPlumApricot from "../../../public/images/choreo_plum_apricot.jpg";
-import imgWhisperWindWater from "../../../public/images/choreo_whisper_wind_water.jpg";
-import imgTheRehearsal from "../../../public/images/choreo_the_rehearsal.jpg";
 import SideNavigation from "@/components/side-nav";
+import styles from "@/styles/Performances.module.scss";
 
 export default function ChoreographyPage() {
 
@@ -19,7 +15,7 @@ export default function ChoreographyPage() {
                     <div className={styles.performanceList}>
                         <PerformanceItem>
                             <PerformanceItemContent
-                                imageSrc={imgPlumApricot}
+                                imageSrc={'/images/choreo_plum_apricot.jpg'}
                                 title={"Mơ mận (Plum Apricot)"}
                                 content={
                                     <span>When the apricots are ripe and the plums are still on the tree</span>
@@ -29,7 +25,7 @@ export default function ChoreographyPage() {
                         </PerformanceItem>
                         <PerformanceItem reverse>
                             <PerformanceItemContent 
-                                imageSrc={imgWhisperWindWater}
+                                imageSrc={'/images/choreo_whisper_wind_water.jpg'}
                                 title="Thầm Thì Gió Nước (Whisper, Wind, Water)"
                                 content={
                                     <>
@@ -43,7 +39,7 @@ export default function ChoreographyPage() {
                         </PerformanceItem>
                         <PerformanceItem>
                             <PerformanceItemContent 
-                                imageSrc={imgTheRehearsal}
+                                imageSrc={'/images/choreo_the_rehearsal.jpg'}
                                 title={
                                     <>
                                         <span>Phòng Tập</span>

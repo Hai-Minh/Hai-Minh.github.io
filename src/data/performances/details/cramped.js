@@ -1,27 +1,13 @@
 import Link from "next/link";
 
-import img0 from "../../../../public/images/performances/cramped/img_0.jpg";
-import img1 from "../../../../public/images/performances/cramped/img_1.webp";
-import img2 from "../../../../public/images/performances/cramped/img_2.webp";
-import img3 from "../../../../public/images/performances/cramped/img_3.webp";
-import img4 from "../../../../public/images/performances/cramped/img_4.webp";
-import img5 from "../../../../public/images/performances/cramped/img_5.webp";
-
-
 const title = "Chật (Journey of Chat)";
 
 const videos = [
     "https://www.youtube.com/embed/_OEAt9vPDEU"
 ];
 
-const images = [
-    img0,
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-];
+let images = [...Array(5).keys()].map(key => `/images/performances/cramped/img_${key+1}.webp`);
+images = ['/images/performances/cramped/img_0.jpg', ...images];
 
 const description = <>
     <span>

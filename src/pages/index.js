@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
-import imgBgHome from "../../public/images/bg_home.jpg";
 import WordAWoman from "@/components/word-a-woman";
 import SideNavigation from "@/components/side-nav";
 
@@ -12,7 +11,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.background}>
-            <Image src={imgBgHome} alt="" fill placeholder="blur" priority/>
+            <Image src={'/images/bg_home.jpg'} alt="" fill sizes="(max-width: 768px) 80vw, (max-width: 1200px) 48vw, 33vw" priority quality={100} />
           </div>
           <div className={styles.title}>
             <p>Minh Hai</p>
