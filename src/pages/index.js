@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.background}>
-            <Image src={'/images/bg_home.jpg'} alt="" fill sizes="(max-width: 480px) 100vw, (max-width: 1200px) 50vw, 40vw" priority quality={100} />
+            <Image src={'/images/bg_home.jpg'} alt="" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw" priority quality={100} />
           </div>
           <div className={styles.title}>
             <p>Minh Hai</p>
