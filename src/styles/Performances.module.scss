@@ -183,7 +183,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .container {
         padding: 60px 20px 20px 20px;
     }
@@ -237,9 +237,9 @@
     .imageGallery {
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        padding: 10px;
-        background: #222;
+        gap: 8px;
+        padding: 4px;
+        background: #111;
 
         & .imageContainer {
             width: 100%;
@@ -247,7 +247,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .performanceItemVertical {
         &Image {
             height: 220px;

@@ -1,19 +1,3 @@
-import img0 from "../../../../public/images/performances/mr_nobody/img_0.jpg";
-import img1 from "../../../../public/images/performances/mr_nobody/img_1.jpg";
-import img2 from "../../../../public/images/performances/mr_nobody/img_2.jpg";
-import img3 from "../../../../public/images/performances/mr_nobody/img_3.jpg";
-import img4 from "../../../../public/images/performances/mr_nobody/img_4.jpg";
-import img5 from "../../../../public/images/performances/mr_nobody/img_5.jpg";
-import img6 from "../../../../public/images/performances/mr_nobody/img_6.jpg";
-import img7 from "../../../../public/images/performances/mr_nobody/img_7.jpg";
-import img8 from "../../../../public/images/performances/mr_nobody/img_8.jpg";
-import img9 from "../../../../public/images/performances/mr_nobody/img_9.jpg";
-import img10 from "../../../../public/images/performances/mr_nobody/img_10.jpg";
-import img11 from "../../../../public/images/performances/mr_nobody/img_11.jpg";
-import img12 from "../../../../public/images/performances/mr_nobody/img_12.jpg";
-import img13 from "../../../../public/images/performances/mr_nobody/img_13.jpg";
-import img14 from "../../../../public/images/performances/mr_nobody/img_14.jpg";
-
 const title = (
   <span>
     {`Mr Nobody`}
@@ -26,23 +10,7 @@ const title = (
 
 const videos = ['https://www.youtube.com/embed/c5x8cdgOAsU?si=blFw5JSlroW48LR9'];
 
-const images = [
-  img0,
-  img1,
-  img2,
-  img3,
-  img4,
-  img5,
-  img6,
-  img7,
-  img8,
-  img9,
-  img10,
-  img11,
-  img12,
-  img13,
-  img14,
-];
+const images = [...Array(15).keys()].map(key => `/images/performances/mr_nobody/img_${key}.jpg`);
 
 const description = (
   <>

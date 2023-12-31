@@ -51,7 +51,7 @@ export default function OthersItemDetails() {
                         {
                             data.images.map((item, index) => (
                                 <div key={index} className={styles.imageContainer}>
-                                    <Image src={item} alt="" fill priority quality={100} sizes="(max-width: 600px) 400px, (min-width: 601px) 500px"/>
+                                    <Image src={item} alt="" fill sizes="(max-width: 480px) 40vw, (max-width: 1200px) 30vw, 20vw" priority quality={100} />
                                 </div>)
                             )
                         }
