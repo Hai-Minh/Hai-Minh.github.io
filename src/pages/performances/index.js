@@ -10,6 +10,7 @@ import imgTamSinh from "../../../public/images/perf_tam_sinh.jpg";
 import imgLego from "../../../public/images/perf_l_ego.jpg";
 import imgCramped from "../../../public/images/perf_cramped.jpg";
 import imgMrNobody from "../../../public/images/perf_mr_nobody.jpg";
+import imgThinhg from "../../../public/images/perf_thinhg.jpg";
 
 export default function PerformancesPage() {
   return (
@@ -20,6 +21,27 @@ export default function PerformancesPage() {
           <h1>Performances</h1>
           <div className={styles.performanceList}>
             <PerformanceItem>
+              <PerformanceItemContent
+                imageSrc={imgThinhg}
+                title={<span>{`Thinh(g)`}</span>}
+                content={
+                  <>
+                    <span style={{ fontSize: "20px", fontWeight: 600 }}>
+                      {`
+                       A dance performance within the artwork “A Tide of Emotions” from  Chiharu Shiota
+                      `}
+                    </span>
+                    <br />
+                    <br />
+                    <span style={{ fontStyle: "italic" }}>
+                      {`“throwing chaos into stillness, watch and hear the world unfold”`}
+                    </span>
+                  </>
+                }
+                detailsUrl="/performances/details/thinhg"
+              />
+            </PerformanceItem>
+            <PerformanceItem reverse>
               <PerformanceItemContent
                 imageSrc={imgMrNobody}
                 title={
@@ -43,7 +65,7 @@ export default function PerformancesPage() {
                 detailsUrl="/performances/details/mr-nobody"
               />
             </PerformanceItem>
-            <PerformanceItem reverse>
+            <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={imgAWoman}
                 title={<WordAWoman />}
@@ -64,7 +86,7 @@ export default function PerformancesPage() {
                 detailsUrl="/performances/details/a-woman"
               />
             </PerformanceItem>
-            <PerformanceItem>
+            <PerformanceItem reverse>
               <PerformanceItemContent
                 imageSrc={imgTamSinh}
                 title="Tam Sinh"
@@ -82,7 +104,7 @@ export default function PerformancesPage() {
                 detailsUrl="/performances/details/tam-sinh"
               />
             </PerformanceItem>
-            <PerformanceItem reverse>
+            <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={imgLego}
                 title="L'ego"
@@ -107,7 +129,7 @@ export default function PerformancesPage() {
                 detailsUrl="/performances/details/l-ego"
               />
             </PerformanceItem>
-            <PerformanceItem>
+            <PerformanceItem reverse>
               <PerformanceItemContent
                 imageSrc={imgCramped}
                 title="Chật (Journey of Chat)"
