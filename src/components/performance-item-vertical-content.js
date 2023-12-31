@@ -13,7 +13,7 @@ export function PerformanceItemVerticalContent({ content, title, detailsUrl, img
             </h2>
             <p>{content}</p>
             <div className={styles.performanceItemVerticalImage}>
-                <Image src={imgSrc} alt="" fill placeholder="blur" />
+                <Image src={imgSrc} alt="" fill placeholder="blur" priority/>
             </div>
             <Link href={detailsUrl} style={{textAlign: 'center'}}>
                 <span className={clsx(styles.viewMoreButton, styles.large)}>View More</span>
