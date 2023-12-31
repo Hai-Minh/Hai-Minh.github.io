@@ -11,7 +11,7 @@ export default function ContactPage() {
                     <h1>Contact</h1>
                     <div className={styles.gridInfo}>
                         <div className={styles.imageContainer}>
-                            <Image src={'/avatar.png'} alt="" fill sizes="(max-width: 768px) 40vw, (max-width: 1200px) 30vw, 20vw" priority quality={100} />
+                            <Image src={'/avatar.png'} alt="" fill sizes="(max-width: 768px) 80vw, (max-width: 1200px) 48vw, 33vw" priority quality={100} />
                         </div>
                         <div>
                             <p>If you have any question or inquiry, please contact directly either to Hai's personal email or Kinergie Studio 's email.</p>
