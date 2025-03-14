@@ -4,6 +4,8 @@ import Lego from './l-ego';
 import Cramped from './cramped';
 import MrNobody from './mr-nobody';
 import Thinhg from './thinhg';
+import IDontDance from './i-dont-dance';
+import SeaChoreoLab from './sea-choreo-lab';
 
 const PerformanceData = {
     "a-woman": AWoman,
@@ -12,6 +14,8 @@ const PerformanceData = {
     'cramped': Cramped,
     'mr-nobody': MrNobody,
     'thinhg': Thinhg,
+    'i-dont-dance': IDontDance,
+    'sea-choreo-lab': SeaChoreoLab,
 };
 
 export default PerformanceData;

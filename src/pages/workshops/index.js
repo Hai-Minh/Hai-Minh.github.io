@@ -3,7 +3,7 @@ import { PerformanceItem } from "@/components/performance-item";
 import { PerformanceItemContent } from "@/components/performance-item-content";
 
 import imgWorkshopNGO from "../../../public/images/workshop-ngo.png";
-import imgWorkshopSaiGon from "../../../public/images/workshop-saigon.jpg";
+import imgWorkshopBtH from "../../../public/images/workshop-body-to-heart.jpg";
 import SideNavigation from "@/components/side-nav";
 
 export default function WorkshopPage() {
@@ -16,6 +16,18 @@ export default function WorkshopPage() {
                     <div className={styles.performanceList}>
                         <PerformanceItem>
                             <PerformanceItemContent 
+                                imageSrc={imgWorkshopBtH}
+                                title={<>
+                                    <p>{`[Inclusive Contemporary Dance Workshops and Performance Series]`}</p>
+                                    <p>{`Body to Heart: Encounters of different body realities`}</p>
+                                </>}
+                                content="Moving together and allowing these bodily realities to meet is an opportunity to explore how each person lives, breathes, and interacts with the world."
+                                detailsUrl="/workshops/details/body-to-heart"
+                            />
+                        </PerformanceItem>
+
+                        <PerformanceItem reverse>
+                            <PerformanceItemContent 
                                 imageSrc={imgWorkshopNGO}
                                 title="“Release and Connect” for NGO"
                                 content={
@@ -24,19 +36,6 @@ export default function WorkshopPage() {
                                     </>                            
                                 }
                                 detailsUrl="/workshops/details/release-and-connect"
-                            />
-                        </PerformanceItem>
-                        <PerformanceItem reverse>
-                            <PerformanceItemContent 
-                                imageSrc={imgWorkshopSaiGon}
-                                title="“Connect and be creative” through Contemporary Dance"
-                                content={
-                                    <>
-                                        “The feeling after three days of attending the workshop is that the workshop is very comfortable and light. Hai loves what she’s doing, her love for her job and love for dance is contagious to students. Although it was short, the workshop instilled in me a love of movement. Hope to join Hai’s other workshops..."<br />
-                                        – Nhất Phu
-                                    </>                            
-                                }
-                                detailsUrl="/workshops/details/connect-and-creative"
                             />
                         </PerformanceItem>
                     </div>

@@ -7,7 +7,6 @@
     margin: auto;
     width: 1000px;
     height: 650px;
-    overflow: hidden;
 }
 
 .background {
@@ -44,7 +43,7 @@
 
 .info {
     position: absolute;
-    bottom: 30px;
+    top: calc(50% + 100px);
     left: 0;
     opacity: 0;
     animation: fadeIn 2s ease-in 3.5s forwards;
@@ -56,6 +55,7 @@
         line-height: 1.5;
         letter-spacing: 0.3px;
         color: #fff;
+        margin-bottom: 10px;
     }
 }
 

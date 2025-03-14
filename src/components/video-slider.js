@@ -64,11 +64,11 @@ export default function VideoSlider({ source }) {
                                     height="auto" 
                                     src={item}
                                     title="YouTube video player" 
-                                    frameborder="0" 
+                                    frameBorder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; 
                                         encrypted-media; gyroscope; picture-in-picture;
                                         web-share" 
-                                    allowfullscreen="1"
+                                    allowFullScreen="1"
                                 >
                                 </iframe>
                             </div>
