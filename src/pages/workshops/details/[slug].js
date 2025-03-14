@@ -28,9 +28,9 @@ export default function WorkshopItemDetails() {
                 <div className={clsx(styles.content, styles.contentDetails)}>
                     <BackButton url="/workshops"/>
                     <h1>{data.title}</h1>
-                    <p>
+                    <div>
                         {data.description}
-                    </p>
+                    </div>
                     <br />
                     <p>
                         {data.credits}
@@ -65,8 +65,8 @@ export default function WorkshopItemDetails() {
 export async function getStaticPaths() {
     return {
         paths: [
-            { params: { slug: 'connect-and-creative' } }, 
             { params: { slug: 'release-and-connect' } },
+            { params: { slug: 'body-to-heart' } },
         ],
         fallback: false, // can also be true or 'blocking'
     }

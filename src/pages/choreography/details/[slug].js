@@ -28,14 +28,6 @@ export default function ChoreographyItemDetails() {
                 <div className={clsx(styles.content, styles.contentDetails)}>
                     <BackButton url="/choreography" />
                     <h1>{data.title}</h1>
-                    <p>
-                        {data.description}
-                    </p>
-                    <br />
-                    <p>
-                        {data.credits}
-                    </p>
-                    <div style={{height: "40px"}}></div>
                     {
                         data.videos.length > 0 &&
                         <>
@@ -44,9 +36,9 @@ export default function ChoreographyItemDetails() {
                                     ? <VideoSlider source={data.videos}/>
                                     : <SingleVideo url={data.videos[0]}/>
                             }
+                            <div style={{ height: "40px" }}></div>
                         </>
                     }
-                    <div style={{ height: "40px" }}></div>
                     <div className={styles.imageGallery}>
                         {
                             data.images.map((item, index) => (
@@ -56,6 +48,14 @@ export default function ChoreographyItemDetails() {
                             )
                         }
                     </div>
+                    <div style={{ height: "40px" }}></div>
+                    <p>
+                        {data.description}
+                    </p>
+                    <br />
+                    <p>
+                        {data.credits}
+                    </p>
                 </div>
             </div>
         </SideNavigation>

@@ -28,14 +28,6 @@ export default function PerformanceItemDetails() {
                 <div className={clsx(styles.content, styles.contentDetails)}>
                     <BackButton url="/performances"/>
                     <h1>{data.title}</h1>
-                    <p>
-                        {data.description}
-                    </p>
-                    <br />
-                    <p>
-                        {data.credits}
-                    </p>
-                    <div style={{height: "40px"}}></div>
                     {
                         data.videos.length > 0 &&
                         <>
@@ -44,9 +36,9 @@ export default function PerformanceItemDetails() {
                                     ? <VideoSlider source={data.videos}/>
                                     : <SingleVideo url={data.videos[0]}/>
                             }
+                            <div style={{ height: "40px" }}></div>
                         </>
                     }
-                    <div style={{ height: "40px" }}></div>
                     <div className={styles.imageGallery}>
                         {
                             data.images.map((item, index) => (
@@ -55,6 +47,14 @@ export default function PerformanceItemDetails() {
                                 </div>)
                             )
                         }
+                    </div>
+                    <div style={{ height: "40px" }}></div>
+                    <div>
+                        {data.description}
+                    </div>
+                    <br />
+                    <div>
+                        {data.credits}
                     </div>
                 </div>
             </div>
@@ -71,6 +71,8 @@ export async function getStaticPaths() {
             { params: { slug: 'cramped' } },
             { params: { slug: 'mr-nobody' } },
             { params: { slug: 'thinhg' } },
+            { params: { slug: 'i-dont-dance' } },
+            { params: { slug: 'sea-choreo-lab' } },
         ],
         fallback: false, // can also be true or 'blocking'
     }
