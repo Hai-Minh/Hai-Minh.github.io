@@ -5,13 +5,14 @@
 .content {
     position: relative;
     margin: auto;
-    width: 1000px;
+    width: 80%;
     height: 650px;
 }
 
 .background {
     position: relative;
     height: 100%;
+    overflow: hidden;
 
     & > img {
         object-fit: cover;

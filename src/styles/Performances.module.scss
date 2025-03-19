@@ -29,8 +29,9 @@
         }
 
         & .videoContainer {
-            width: 1000px;
-            height: 562.5px;
+            width: auto;
+            height: 500px;
+            aspect-ratio: 16/9;
             display: flex;
             margin: 0 auto;
         }
@@ -187,6 +188,22 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .content {
+        &Details {
+            & > p {
+                margin: 0;
+            }
+
+            & .videoContainer {
+                width: auto;
+                height: 320px;
+                aspect-ratio: 16/9;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         padding: 60px 20px 20px 20px;
@@ -199,8 +216,9 @@
             }
 
             & .videoContainer {
-                width: 300px;
-                height: 220px;
+                width: auto;
+                height: 196px;
+                aspect-ratio: 16/9;
             }
         }
     }
@@ -232,6 +250,10 @@
                 display: none;
             }
         }
+    }
+
+    .performanceItem:nth-child(2n) {
+        flex-direction: column-reverse;
     }
 
     .viewMoreButton {
