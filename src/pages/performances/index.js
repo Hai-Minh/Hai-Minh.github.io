@@ -22,6 +22,22 @@ export default function PerformancesPage() {
           <div className={styles.performanceList}>
             <PerformanceItem>
               <PerformanceItemContent
+                imageSrc={'/images/perf_rites_of_kite.webp'}
+                title={<>
+                  <p>{`"Rites of kite" - `}</p>
+                  <p>{`a multidisciplinary performance project by Siedl/Cao`}</p>
+                </>}
+                content={
+                  <span>
+                    {`"Rites of kite" is a contemplation about kite-flying, a tradition that is endangered by the sprawling urbanisation, a practice or even a ritual that connects the ancestors and the modern people, the nature and the human-being.`}
+                  </span>
+                }
+                detailsUrl="/performances/details/rites-of-kite"
+              />
+            </PerformanceItem>
+
+            <PerformanceItem>
+              <PerformanceItemContent
                 imageSrc={'/images/perf_sea_choreo_lab.jpg'}
                 title={"SEA Choreolab 2024 - Participant"}
                 content={
@@ -31,7 +47,7 @@ export default function PerformancesPage() {
               />
             </PerformanceItem>
 
-            <PerformanceItem reverse>
+            <PerformanceItem>
               <PerformanceItemContent
                   imageSrc={'/images/perf_i_dont_dance.jpg'}
                   title={"Hết giờ chơi (I don't dance)"}
@@ -64,7 +80,7 @@ export default function PerformancesPage() {
               />
             </PerformanceItem>
 
-            <PerformanceItem reverse>
+            <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={imgMrNobody}
                 title={
@@ -111,7 +127,7 @@ export default function PerformancesPage() {
               />
             </PerformanceItem>
 
-            <PerformanceItem reverse>
+            <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={imgTamSinh}
                 title="Tam Sinh"
@@ -156,7 +172,7 @@ export default function PerformancesPage() {
               />
             </PerformanceItem>
 
-            <PerformanceItem reverse>
+            <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={imgCramped}
                 title="Chật (Journey of Chat)"

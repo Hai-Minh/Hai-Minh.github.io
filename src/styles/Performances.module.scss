@@ -102,6 +102,10 @@
     }
 }
 
+.performanceItem:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
 .performanceItemVertical {
     display: flex;
     flex-direction: column;

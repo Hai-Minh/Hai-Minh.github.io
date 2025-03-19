@@ -73,6 +73,7 @@ export async function getStaticPaths() {
             { params: { slug: 'thinhg' } },
             { params: { slug: 'i-dont-dance' } },
             { params: { slug: 'sea-choreo-lab' } },
+            { params: { slug: 'rites-of-kite' } },
         ],
         fallback: false, // can also be true or 'blocking'
     }

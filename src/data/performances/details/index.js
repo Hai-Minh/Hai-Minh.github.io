@@ -6,6 +6,7 @@ import MrNobody from './mr-nobody';
 import Thinhg from './thinhg';
 import IDontDance from './i-dont-dance';
 import SeaChoreoLab from './sea-choreo-lab';
+import RitesOfKite from './rites-of-kite';
 
 const PerformanceData = {
     "a-woman": AWoman,
@@ -16,6 +17,7 @@ const PerformanceData = {
     'thinhg': Thinhg,
     'i-dont-dance': IDontDance,
     'sea-choreo-lab': SeaChoreoLab,
+    'rites-of-kite': RitesOfKite,
 };
 
 export default PerformanceData;
