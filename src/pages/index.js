@@ -28,7 +28,7 @@ export default function Home() {
               In recognition of her contributions, she was nominated in 2022 for the Active Artist category in the Hanoi Grapevine Finest Pandemic Award. In 2023, Hải was selected as one of six artists to participate in the Artist Residency program "Frankfurt Move!" hosted by Frankfurt LAB in collaboration with KfW Stiftung. In this year, Hai and her colleagues created the work "thinh(g)”,  which serves as a dialogue with the artwork "A Tide of Emotions" by artist Chiharu Shiota in the Vincom Center for Contemporary Art.
             </p>
             <p>
-              Hải is also recognized for her interdisciplinary collaborations with musicians, film directors, especially with South East Asia Choreographer after participating the Southeast Asian Choreolab - an international choreographic laboratory, facilitated by renowned Taiwanese choreographer Hsiao-Mei Ho in July of 2024.
+              Hải is also recognized for her interdisciplinary collaborations with musicians, film directors, especially with South East Asia Choreographer after participating the Southeast Asian Choreolab - an international choreographic laboratory, facilitated by renowned Taiwanese choreographer Hsiao-Mei Ho in July of 2024
             </p>
           </div>
         </div>
