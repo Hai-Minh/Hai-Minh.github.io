@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import clsx from "clsx";
 import Image from "next/image";
 import performanceData from "@/data/performances/details";
+import performancesData from "@/data";
 import styles from "@/styles/Performances.module.scss";
 import BackButton from "@/components/back-button";
 import VideoSlider from "@/components/video-slider";
@@ -17,7 +18,7 @@ export default function PerformanceItemDetails() {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        setData(performanceData[slug]);
+        setData(performancesData[slug] ?? performanceData[slug]);
     }, []);
 
     if (!data) return (<></>);
@@ -65,6 +66,7 @@ export default function PerformanceItemDetails() {
 export async function getStaticPaths() {
     return {
         paths: [
+            { params: { slug: 'coc-kien-zoi' } },
             { params: { slug: 'i-dont-dance' } },
             { params: { slug: 'mr-nobody' } },
             { params: { slug: 'thinhg' } },

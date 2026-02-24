@@ -19,6 +19,22 @@ export default function WorksPage() {
           <div className={performancesStyles.performanceList}>
             <PerformanceItem>
               <PerformanceItemContent
+                imageSrc={"/images/coc_kien_gioi.jpg"}
+                title={"Cóc kiện Zời"}
+                content={
+                  <>
+                    <span style={{ display: "inline-block", marginBottom: "8px" }}>
+                      {`Tái hiện một câu chuyện dân gian mang tính đương đại trước mắt khán giả tại Hà Nội. Cóc kiện Zời là tác phẩm múa đương đại được lấy cảm hứng từ câu truyện dân gian Việt Nam “Con Cóc là cậu ông Giời” `}
+                    </span>
+                    <br />
+                    <span>{`The performance has a poetic, visually rich, and compelling staging that reimagined a traditional folktale through a contemporary lens for Hanoi audiences. “Cóc Kiện Zời” is a contemporary dance performance inspired by the Vietnamese folktale “Cóc kiện Giời” (“The Toad That Sued The Celestial Emperor”)`}</span>
+                  </>
+                }
+                detailsUrl="/works/details/coc-kien-zoi"
+              />
+            </PerformanceItem>
+            <PerformanceItem>
+              <PerformanceItemContent
                 imageSrc={"/images/perf_i_dont_dance.jpg"}
                 title={"Hết giờ chơi (I don't dance)"}
                 content={<span>Playing together, laughing together</span>}
