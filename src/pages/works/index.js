@@ -14,14 +14,15 @@ export default function WorksPage() {
   return (
     <SideNavigation>
       <div className={styles.container}>
-        <div className={styles.content}>
+        <div className={performancesStyles.content}>
+          <h1>Works</h1>
           <div className={performancesStyles.performanceList}>
             <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={"/images/perf_i_dont_dance.jpg"}
                 title={"Hết giờ chơi (I don't dance)"}
                 content={<span>Playing together, laughing together</span>}
-                detailsUrl="/performances/details/i-dont-dance"
+                detailsUrl="/works/details/i-dont-dance"
               />
             </PerformanceItem>
             <PerformanceItem>
@@ -45,7 +46,7 @@ export default function WorksPage() {
                     `}
                   </span>
                 }
-                detailsUrl="/performances/details/mr-nobody"
+                detailsUrl="/works/details/mr-nobody"
               />
             </PerformanceItem>
             <PerformanceItem>
@@ -66,7 +67,7 @@ export default function WorksPage() {
                     </span>
                   </>
                 }
-                detailsUrl="/performances/details/thinhg"
+                detailsUrl="/works/details/thinhg"
               />
             </PerformanceItem>
             <PerformanceItem>
@@ -87,7 +88,7 @@ export default function WorksPage() {
                     person proceed in the journey to her own foreknown death?
                   </span>
                 }
-                detailsUrl="/performances/details/a-woman"
+                detailsUrl="/works/details/a-woman"
               />
             </PerformanceItem>
             <PerformanceItem>
@@ -112,7 +113,7 @@ export default function WorksPage() {
                     </span>
                   </>
                 }
-                detailsUrl="/performances/details/l-ego"
+                detailsUrl="/works/details/l-ego"
               />
             </PerformanceItem>
           </div>

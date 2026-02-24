@@ -26,7 +26,7 @@ export default function PerformanceItemDetails() {
         <SideNavigation>
             <div className={styles.container}>
                 <div className={clsx(styles.content, styles.contentDetails)}>
-                    <BackButton url="/performances"/>
+                    <BackButton url="/works"/>
                     <h1>{data.title}</h1>
                     {
                         data.videos.length > 0 &&
