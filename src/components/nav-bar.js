@@ -6,9 +6,7 @@ import Image from "next/image";
 const NavigationData = [
     { title: "Home", url: "/" },
     { title: "Works", url: "/works" },
-    { title: "Workshops", url: "/workshops" },
-    { title: "Others", url: "/others" },
-    { title: "Contact", url: "/contact" },
+    { title: "Projects", url: "/projects" },
     {
         title: "Curriculum Vitae",
         url: "https://www.canva.com/design/DAFaUgAG5p4/lgEwsD-b-ImZBOI6pK6W-g/view",
