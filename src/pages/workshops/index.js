@@ -25,7 +25,6 @@ export default function WorkshopPage() {
                                 detailsUrl="/workshops/details/body-to-heart"
                             />
                         </PerformanceItem>
-
                         <PerformanceItem>
                             <PerformanceItemContent 
                                 imageSrc={imgWorkshopMwS}
@@ -34,6 +33,14 @@ export default function WorkshopPage() {
                                 detailsUrl="/workshops/details/moving-with-space"
                             />
                         </PerformanceItem>
+                        <PerformanceItem>
+                            <PerformanceItemContent
+                                imageSrc="/images/street-movement/image_1.jpg"
+                                title={`STREET MOVEMENT & URBAN OBSERVATION (MUA ĐƯỜNG - MÚA ĐƯỜNG)`}
+                                content={`An interdisciplinary workshop exploring movement within urban spaces`}
+                                detailsUrl="/workshops/details/street-movement"
+                            />
+                        </PerformanceItem> 
                     </div>
                 </div>
             </div>

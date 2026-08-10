@@ -65,6 +65,7 @@ export default function WorkshopItemDetails() {
 export async function getStaticPaths() {
     return {
         paths: [
+            { params: { slug: 'street-movement' } },
             { params: { slug: 'moving-with-space' } },
             { params: { slug: 'body-to-heart' } },
         ],
