@@ -49,6 +49,14 @@ export default function WorkshopPage() {
                                 detailsUrl="/workshops/details/drawing-and-movement"
                             />
                         </PerformanceItem> 
+                        <PerformanceItem>
+                            <PerformanceItemContent
+                                imageSrc="/images/mother-and-child/image_1.jpg"
+                                title={`Happy Dance For Mother & Child`}
+                                content={`A family bonding workshop through creative movement`}
+                                detailsUrl="/workshops/details/mother-and-child"
+                            />
+                        </PerformanceItem> 
                     </div>
                 </div>
             </div>
