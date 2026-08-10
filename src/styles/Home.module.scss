@@ -1,23 +1,17 @@
 .container {
-    background: #000;
+    background: #f5f5f5;
 };
 
 .content {
     position: relative;
-    margin: auto;
-    width: 80%;
-    height: 650px;
+    height: 100vh;
 }
 
 .background {
-    position: relative;
-    height: 100%;
-    overflow: hidden;
 
     & > img {
         object-fit: cover;
-        object-position: center 120px;
-        transform: scale(1.5, 1.5);
+        object-position: center center;
         opacity: 0;
         animation: fadeIn 2s ease-in 0.5s forwards, fadeOut 2s ease-in 3.5s forwards;
     }    
@@ -26,9 +20,9 @@
 .title {
     position: absolute;
     top: 50%;
-    left: 0;
-    color: #fff;
-    transform: translate(0, -40px);
+    left: 0%;
+    color: #f5f5f5;
+    transform: translate(64px, 0);
     opacity: 0;
     animation: fadeIn 2s ease-in 2s forwards;
 
@@ -44,8 +38,9 @@
 
 .info {
     position: absolute;
-    top: calc(50% + 100px);
+    top: calc(50% + 150px);
     left: 0;
+    padding: 0 64px;
     opacity: 0;
     animation: fadeIn 2s ease-in 3.5s forwards;
 
@@ -84,6 +79,25 @@
     100% { opacity: 0.5; }
 }
 
+@media only screen and (max-width: 1024px) {
+    .title {
+        transform: translate(32px, 0);
+
+        & > p {
+            font-size: 54px;
+        }
+
+        & > p + p {
+            font-size: 18px;
+            letter-spacing: 12px;
+        }
+    }
+
+    .info {
+        padding: 0 32px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         height: 100vh;
@@ -100,7 +114,6 @@
     }
 
     .title {
-        padding: 0 20px;
         top: 364px;
 
         & > p {
@@ -114,8 +127,8 @@
     }
 
     .info {
-        top: 414px;
-        padding: 0 20px;
+        top: 454px;
+        padding: 0 32px;
 
         & > p {
             font-size: 16px;
