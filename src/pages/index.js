@@ -1,8 +1,6 @@
 import Image from "next/image";
-import styles from "@/styles/Home.module.scss";
-import WordAWoman from "@/components/word-a-woman";
 import SideNavigation from "@/components/side-nav";
-
+import styles from "@/styles/Home.module.scss";
 
 export default function Home() {
 
@@ -17,7 +15,6 @@ export default function Home() {
               fill
               sizes="(max-width: 768px) 80vw, (max-width: 1200px) 48vw, 33vw"
               priority
-              quality={100}
             />
           </div>
           <div className={styles.title}>
