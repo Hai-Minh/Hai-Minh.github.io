@@ -4,6 +4,7 @@ import BodyToHeart from './body-to-heart';
 import MovingWithSpace from './moving-with-space';
 import StreetMovement from './street-movement';
 import DrawingAndMovement from './drawing-and-movement';
+import MotherAndChild from './mother-and-child';
 
 const WorkshopData = {
     "release-and-connect": ReleaseAndConnect,
@@ -11,7 +12,8 @@ const WorkshopData = {
     "body-to-heart": BodyToHeart,
     "moving-with-space": MovingWithSpace,
     "street-movement": StreetMovement,
-    "drawing-and-movement": DrawingAndMovement
+    "drawing-and-movement": DrawingAndMovement,
+    "mother-and-child": MotherAndChild
 };
 
 export default WorkshopData;
