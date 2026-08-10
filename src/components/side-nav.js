@@ -30,11 +30,15 @@ export default function SideNavigation({ children }) {
         <>
             <div className={styles.sideNav} ref={sideNavRef}>
                 <button className={styles.closeBtn} onClick={closeNav}>&times;</button>
-                <Link href="/" onClick={closeNav}>Home</Link>
+                <Link href="/" onClick={closeNav}>
+                    <div className={styles.logo}>
+                        <Image alt="" src="/avatar.png" width={44} height={44} />
+                        <span>Minh Hai Tran</span>
+                    </div>
+                </Link>
                 <Link href="/works" onClick={closeNav}>Works</Link>
+                <Link href="/projects" onClick={closeNav}>Projects</Link>
                 <Link href="/workshops" onClick={closeNav}>Workshops</Link>
-                <Link href="/others" onClick={closeNav}>Others</Link>
-                <Link href="/contact" onClick={closeNav}>Contact</Link>
                 <Link 
                     href="https://www.canva.com/"
                     onClick={handleGoToCV}
