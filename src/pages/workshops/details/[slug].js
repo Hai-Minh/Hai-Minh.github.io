@@ -65,7 +65,7 @@ export default function WorkshopItemDetails() {
 export async function getStaticPaths() {
     return {
         paths: [
-            { params: { slug: 'release-and-connect' } },
+            { params: { slug: 'moving-with-space' } },
             { params: { slug: 'body-to-heart' } },
         ],
         fallback: false, // can also be true or 'blocking'

@@ -2,7 +2,7 @@ import styles from "@/styles/Performances.module.scss"
 import { PerformanceItem } from "@/components/performance-item";
 import { PerformanceItemContent } from "@/components/performance-item-content";
 
-import imgWorkshopNGO from "../../../public/images/workshop-ngo.png";
+import imgWorkshopMwS from "../../../public/images/moving-with-space/image_1.jpg";
 import imgWorkshopBtH from "../../../public/images/workshop-body-to-heart.jpg";
 import SideNavigation from "@/components/side-nav";
 
@@ -26,16 +26,12 @@ export default function WorkshopPage() {
                             />
                         </PerformanceItem>
 
-                        <PerformanceItem reverse>
+                        <PerformanceItem>
                             <PerformanceItemContent 
-                                imageSrc={imgWorkshopNGO}
-                                title="“Release and Connect” for NGO"
-                                content={
-                                    <>
-                                        “I was so impressed, full of fun to have the opportunity to know such a dedicated workshop! Thank you is definitely not enough to express the appreciation I am feeling. Come to really touch the emotions, will definitely come back and continue to stick together” – Thanh Mai
-                                    </>                            
-                                }
-                                detailsUrl="/workshops/details/release-and-connect"
+                                imageSrc={imgWorkshopMwS}
+                                title="Moving With Space"
+                                content={`An experiential workshop on emotional expression and spatial interaction`}
+                                detailsUrl="/workshops/details/moving-with-space"
                             />
                         </PerformanceItem>
                     </div>
