@@ -44,18 +44,18 @@ export default function SideNavigation({ children }) {
                 </Link>
             </div>
 
-            {/* Use any element to open the sidenav */}
-            <div className={styles.sideNavBar}>
-                <Image 
-                    src="/icons/ic_menu.svg" 
-                    alt="" 
-                    width={40} 
-                    height={40} 
-                    onClick={openNav}
-                />
-            </div>
 
             <div className={styles.pageContent} ref={contentRef}>
+                {/* Use any element to open the sidenav */}
+                <div className={styles.sideNavBar}>
+                    <Image 
+                        src="/icons/ic_menu.svg" 
+                        alt="" 
+                        width={40} 
+                        height={40} 
+                        onClick={openNav}
+                    />
+                </div>
                 {children}
             </div>
         </>
