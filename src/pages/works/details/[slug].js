@@ -66,6 +66,7 @@ export default function PerformanceItemDetails() {
 export async function getStaticPaths() {
     return {
         paths: [
+            { params: { slug: 'chan-troi-goc-be' } },
             { params: { slug: 'coc-kien-zoi' } },
             { params: { slug: 'i-dont-dance' } },
             { params: { slug: 'mr-nobody' } },

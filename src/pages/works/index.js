@@ -17,6 +17,16 @@ export default function WorksPage() {
         <div className={performancesStyles.content}>
           <h1>Works</h1>
           <div className={performancesStyles.performanceList}>
+            <PerformanceItem>                                                                                                                                          
+              <PerformanceItemContent                                                                                                                                  
+                imageSrc="/images/chan-troi-goc-be/image_1.jpg"                                                                                                        
+                title={"Chân trời góc bể - Lost and Found"}                                                                                                            
+                content={
+                  `Chân trời góc bể (Lost and Found) is a contemporary dance project marking a significant milestone in Minh Hải’s artistic journey. The work is the fruit of an extended research process, where the artist distills and transforms traditional craftsmanship into a symbolic language of movement.`
+                }                                                                                                                                                      
+                detailsUrl="/works/details/chan-troi-goc-be"                                                                                                           
+              />                                                                                                                                                       
+            </PerformanceItem>                                                                                                                                         
             <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={"/images/coc_kien_gioi.jpg"}
