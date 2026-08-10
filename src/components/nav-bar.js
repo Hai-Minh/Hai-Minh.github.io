@@ -4,9 +4,9 @@ import { NavDropdown, NavDropdownItem } from "./nav-dropdown";
 import Image from "next/image";
 
 const NavigationData = [
-    { title: "Home", url: "/" },
     { title: "Works", url: "/works" },
     { title: "Projects", url: "/projects" },
+    { title: "Workshops", url: "/workshops" },
     {
         title: "Curriculum Vitae",
         url: "https://www.canva.com/design/DAFaUgAG5p4/lgEwsD-b-ImZBOI6pK6W-g/view",
@@ -20,6 +20,12 @@ export default function NavigationBar() {
     return (
         <>
             <div className={styles.container}>
+                <div className={styles.logo}>
+                    <Link href="/">
+                        <Image alt="" src="/avatar.png" width={44} height={44} />
+                        <span>Minh Hai Tran</span>
+                    </Link>
+                </div>
                 <div className={styles.navList}>
                     {
                         NavigationData.map((item, index) => {

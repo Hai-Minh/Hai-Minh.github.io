@@ -5,6 +5,11 @@
     font-family: Helvetica, sans-serif;
 }
 
+html,
+body {
+    background: #f5f5f5;
+}
+
 a {
     color: #f5f5f5;
 }
