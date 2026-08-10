@@ -36,9 +36,17 @@ export default function WorkshopPage() {
                         <PerformanceItem>
                             <PerformanceItemContent
                                 imageSrc="/images/street-movement/image_1.jpg"
-                                title={`STREET MOVEMENT & URBAN OBSERVATION (MUA ĐƯỜNG - MÚA ĐƯỜNG)`}
+                                title={`Street Movement & Urban Observation (Mua Đường ờn- Múa Đường`}
                                 content={`An interdisciplinary workshop exploring movement within urban spaces`}
                                 detailsUrl="/workshops/details/street-movement"
+                            />
+                        </PerformanceItem> 
+                        <PerformanceItem>
+                            <PerformanceItemContent
+                                imageSrc="/images/drawing-and-movement/image_1.jpg"
+                                title={`Drawing & Movement In Play (Từ Hình Đến Động)`}
+                                content={`A collaboration between Hong Xiem & Kinergie Studio`}
+                                detailsUrl="/workshops/details/drawing-and-movement"
                             />
                         </PerformanceItem> 
                     </div>
