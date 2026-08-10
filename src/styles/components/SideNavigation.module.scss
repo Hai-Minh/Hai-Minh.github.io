@@ -11,7 +11,7 @@
     top: 0;
     /* Stay at the top */
     left: 0;
-    background-color: #111;
+    background-color: #f5f5f5;
     /* Black*/
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -31,9 +31,9 @@
         transition: 0.3s;
 
         /* When you mouse over the navigation links, change their color */
-        &:hover {
-            color: #f1f1f1;
-        }
+        // &:hover {
+        //     color: #f1f1f1;
+        // }
     }
 
     & a:first-of-type {
@@ -47,7 +47,7 @@
     display: none;
     padding-left: 5px;
     padding-top: 5px;
-    background: #111;
+    background: #f5f5f5;
     z-index: 1;
 }
 
@@ -65,7 +65,7 @@
     margin-left: 50px;
     border: none;
     background: none;
-    color: #fff;
+    color: #333;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -87,7 +87,7 @@
 @media only screen and (max-width: 768px) {
     .sideNav {
         & a {
-            color: #fff;
+            color: #333;
         }
     }
 
