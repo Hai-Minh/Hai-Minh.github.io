@@ -29,15 +29,15 @@ export default function WorkshopPage() {
                             <PerformanceItemContent 
                                 imageSrc={imgWorkshopMwS}
                                 title="Moving With Space"
-                                content={`An experiential workshop on emotional expression and spatial interaction`}
+                                content={`Through fluid and somatic guidance, participants explore the grace of movement while discovering deep interconnections between thought, emotion, the physical body, and surrounding space.`}
                                 detailsUrl="/workshops/details/moving-with-space"
                             />
                         </PerformanceItem>
                         <PerformanceItem>
                             <PerformanceItemContent
                                 imageSrc="/images/street-movement/image_1.jpg"
-                                title={`Street Movement & Urban Observation (Mua Đường ờn- Múa Đường`}
-                                content={`An interdisciplinary workshop exploring movement within urban spaces`}
+                                title={`Street Movement & Urban Observation (Mua Đường - Múa Đường`}
+                                content={`By observing social dynamics, urban transformations, and everyday narratives, participants explore the dialogue between the human body and the city, transforming spatial observations into site-specific movement vocabularies.`}
                                 detailsUrl="/workshops/details/street-movement"
                             />
                         </PerformanceItem> 
@@ -45,7 +45,7 @@ export default function WorkshopPage() {
                             <PerformanceItemContent
                                 imageSrc="/images/drawing-and-movement/image_1.jpg"
                                 title={`Drawing & Movement In Play (Từ Hình Đến Động)`}
-                                content={`A collaboration between Hong Xiem & Kinergie Studio`}
+                                content={`Simultaneously, visual observation and spatial drawing enable movers to deepen their awareness of form, light, color, and environment, creating visually compelling and intentional spatial dynamics.`}
                                 detailsUrl="/workshops/details/drawing-and-movement"
                             />
                         </PerformanceItem> 
@@ -53,7 +53,7 @@ export default function WorkshopPage() {
                             <PerformanceItemContent
                                 imageSrc="/images/mother-and-child/image_1.jpg"
                                 title={`Happy Dance For Mother & Child`}
-                                content={`A family bonding workshop through creative movement`}
+                                content={`Through interactive games using non-verbal "body language," the session offers a healthy play space that stimulates children's imagination and creativity while fostering deeper empathy, mutual understanding, and seamless communication between parent and child.`}
                                 detailsUrl="/workshops/details/mother-and-child"
                             />
                         </PerformanceItem>
@@ -61,7 +61,7 @@ export default function WorkshopPage() {
                             <PerformanceItemContent
                                 imageSrc="/images/cubist-perspectives/image_0.jpg"
                                 title={`Journey Through The Art World: Cubist Perspectives`}
-                                content={`In collaboration with Hoa Tam Art Center`}
+                                content={`The movement exercises stimulate children's multi-sensory awareness, encouraging them to freely shift their physical perspectives in space to observe how shapes transform and translate these lived spatial observations into unique, multi-dimensional Cubist artworks.`}
                                 detailsUrl="/workshops/details/cubist-perspectives"
                             />
                         </PerformanceItem>

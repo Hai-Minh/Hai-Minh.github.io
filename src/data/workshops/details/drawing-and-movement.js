@@ -21,7 +21,7 @@ const description = (
       <ul>
         <li><strong>Role:</strong> Co-Facilitator / Movement Instructor</li>
         <li><strong>Target Audience:</strong> Visual artists, movers, dancers, and beginners with an open mind.</li>
-        <li><strong>Overview:</strong> An interdisciplinary, playful workshop bridging the visual arts and movement communities through shared principles of form, space, and rhythm. Designed with a non-judgmental, exploratory approach, the session uses contemporary movement to liberate the body and mind—bringing fluidity and strength to drawing lines. Simultaneously, visual observation and spatial drawing enable movers to deepen their awareness of form, light, color, and environment, creating visually compelling and intentional spatial dynamics.</li>
+        <li><strong>Overview:</strong> An interdisciplinary, playful workshop bridging the visual arts and movement communities through shared principles of form, space, and rhythm. Designed with a non-judgmental, exploratory approach, the session uses contemporary movement to liberate the body and mind—bringing fluidity and strength to drawing lines. Simultaneously, visual observation and <strong>spatial</strong> drawing enable movers to deepen their awareness of form, light, color, and environment, creating visually compelling and intentional spatial dynamics.</li>
       </ul>
     </p>
   </>
