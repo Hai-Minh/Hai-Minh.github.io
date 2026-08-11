@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     height: 72px;
-    background: #f5f5f5;
+    background: var(--background-primary);
 }
 
 .logo {
@@ -21,7 +21,7 @@
     & > a > span {
         font-size: 21px;
         font-weight: 200;
-        color: #333;
+        color: var(--text-primary);
     }
 
     & > a > img {
@@ -39,7 +39,7 @@
     & > a {
         font-size: 21px;
         font-weight: 200;
-        color: #333;
+        color: var(--text-primary);
         text-decoration: none;
     }
 }
@@ -62,7 +62,7 @@
         & > a > span {
             font-size: 21px;
             font-weight: 200;
-            color: #333;
+            color: var(--text-primary);
         }
 
         & > a > img {

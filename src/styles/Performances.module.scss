@@ -1,6 +1,6 @@
 .container {
     padding: 40px 40px 60px 40px;
-    background: #000;
+    background: var(--background-primary);
 }
 
 .content {
@@ -9,7 +9,7 @@
 
     & > h1 {
         font-size: 44px;
-        color: #fff;
+        color: var(--text-primary);
         margin-bottom: 40px;
         margin-top: 20px;
     }
@@ -24,7 +24,7 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5;
-            color: #fff;
+            color: var(--text-primary);
             margin: 0 20px;
         }
 
@@ -82,7 +82,7 @@
             line-height: 125%;
 
             & > a {
-                color: #fff;
+                color: var(--text-primary);
                 text-decoration: none;
 
                 &:hover {
@@ -98,7 +98,7 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5;
-            color: #fff;
+            color: var(--text-primary);
         }
     }
 }
@@ -263,9 +263,9 @@
     .imageGallery {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 12px;
         padding: 4px;
-        background: #111;
+        background: var(--background-primary);
 
         & .imageContainer {
             width: 100%;
