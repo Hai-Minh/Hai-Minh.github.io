@@ -22,7 +22,6 @@ export default function NavigationBar() {
             <div className={styles.container}>
                 <div className={styles.logo}>
                     <Link href="/">
-                        <Image alt="" src="/avatar.png" width={44} height={44} />
                         <span>Minh Hai Tran</span>
                     </Link>
                 </div>

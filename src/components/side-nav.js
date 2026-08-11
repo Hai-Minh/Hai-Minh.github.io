@@ -32,7 +32,6 @@ export default function SideNavigation({ children }) {
                 <button className={styles.closeBtn} onClick={closeNav}>&times;</button>
                 <Link href="/" onClick={closeNav}>
                     <div className={styles.logo}>
-                        <Image alt="" src="/avatar.png" width={44} height={44} />
                         <span>Minh Hai Tran</span>
                     </div>
                 </Link>
