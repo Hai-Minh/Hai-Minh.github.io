@@ -1,4 +1,4 @@
-const title = "L'ego";
+const title = "L'ego (2019)";
 
 const videos = [
     'https://www.youtube.com/embed/lv0EBtj9-S0',
@@ -7,27 +7,25 @@ const videos = [
 const images = [...Array(13).keys()].map(key => `/images/performances/l-ego/img_${key}.jpg`);
 
 const description = <>
-    <span>Me – us, monochromatic – multichromatic colors, individual – collective, personal – joint stories are fragments that in moments of connection create a colorful, spontaneous, hence captivating picture.</span>
+    <p>{`Me – us, monochromatic – multichromatic colors, individual – collective, personal – joint stories are fragments that in moments of connection create a colorful, spontaneous, hence captivating picture.`}</p>
     <br />
-    <span>L'EGO is a co-creation with influences from contemporary dance, hip hop and jazz theater. There is talk of beauty, identity and individual people, of subtle connections, emotional exchange and the many colours and shades of every moment of life.</span>
+    <p>{`L'EGO is a co-creation with influences from contemporary dance, hip hop and jazz theater. There is talk of beauty, identity and individual people, of subtle connections, emotional exchange and the many colours and shades of every moment of life.`}</p>
 </>                            
 
 
-const credits = <>
-    Artistic Director: Do Hoang Thi Ngoc<br />
-    Performers:<br />
-    Hải Minh, Hoàng Hà, Tú Phạm, Việt Bách, Ngọc Hoa (Kinergie Studio)<br />
-    Kim (La Différence, Sài Gòn)<br />
-    Nega, Quay Trần (Abnormal Conceptz)<br />
-    Linh An (Theater Dance Vietnam)<br />
-    Music: Ian Richter, Trần Uy Đức<br />
-    Costume: Trần Quỳnh Nhi<br />
-    Make-up: Luna, Bambii<br />
-    Photograph: Hoàng Nguyễn, Quang Hưng<br />
-    Filming: Thu Uyên, Duy Anh<br />
-    Production: Thu Hiền, Red, Thùy Trang<br />
-    Music Production Supporter: Anaba studio<br />
-</>;
+const credits = (
+  <ul style={{ paddingLeft: "24px" }}>
+    <li><strong >Artistic Director:</strong > Do Hoang Thi Ngoc</li>
+    <li><strong >Performers:</strong > Hải Minh, Hoàng Hà, Tú Phạm, Việt Bách, Ngọc Hoa (Kinergie Studio), Kim (La Différence, Sài Gòn), Nega, Quay Trần (Abnormal Conceptz), Linh An (Theater Dance Vietnam)</li>
+    <li><strong >Music:</strong > Ian Richter, Trần Uy Đức</li>
+    <li><strong >Costume:</strong > Trần Quỳnh Nhi</li>
+    <li><strong >Make-up:</strong > Luna, Bambii</li>
+    <li><strong >Photography:</strong > Hoàng Nguyễn, Quang Hưng</li>
+    <li><strong >Filming:</strong > Thu Uyên, Duy Anh</li>
+    <li><strong >Production:</strong > Thu Hiền, Red, Thùy Trang</li>
+    <li><strong >Music Production Supporter:</strong > Anaba studio</li>
+  </ul>
+);
 
 export default {
     title,
