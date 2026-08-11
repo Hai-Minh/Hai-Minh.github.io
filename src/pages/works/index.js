@@ -20,7 +20,7 @@ export default function WorksPage() {
             <PerformanceItem>                                                                                                                                          
               <PerformanceItemContent                                                                                                                                  
                 imageSrc="/images/chan-troi-goc-be/image_1.jpg"                                                                                                        
-                title={"Chân trời góc bể - Lost and Found"}                                                                                                            
+                title={"Chân trời góc bể - “Lost and Found”"}                                                                                                            
                 content={
                   `Chân trời góc bể (Lost and Found) is a contemporary dance project marking a significant milestone in Minh Hải’s artistic journey. The work is the fruit of an extended research process, where the artist distills and transforms traditional craftsmanship into a symbolic language of movement.`
                 }                                                                                                                                                      
@@ -30,7 +30,7 @@ export default function WorksPage() {
             <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={"/images/coc_kien_gioi.jpg"}
-                title={"Cóc kiện Zời"}
+                title={`Cóc kiện Zời - “The Toad That Sued The Celestial Emperor”`}
                 content={
                   <>
                     <span style={{ display: "inline-block", marginBottom: "8px" }}>
@@ -46,7 +46,7 @@ export default function WorksPage() {
             <PerformanceItem>
               <PerformanceItemContent
                 imageSrc={"/images/perf_i_dont_dance.jpg"}
-                title={"Hết giờ chơi (I don't dance)"}
+                title={`Hết giờ chơi - “I don't dance”`}
                 content={<span>Playing together, laughing together</span>}
                 detailsUrl="/works/details/i-dont-dance"
               />

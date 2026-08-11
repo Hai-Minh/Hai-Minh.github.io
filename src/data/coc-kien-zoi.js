@@ -1,4 +1,4 @@
-const title = "Cóc kiện Zời";
+const title = "Cóc kiện Zời - “The Toad That Sued The Celestial Emperor” (2025)";
 
 const videos = [
   "https://www.youtube.com/embed/HFdNp4HCSaA"
@@ -29,25 +29,7 @@ const images = [
 const description = (
   <>
     <p>{`
-Cóc kiện Zời là tác phẩm múa đương đại được lấy cảm hứng từ câu truyện dân gian Việt Nam “Con Cóc là cậu ông Giời” được đạo diễn và biên đạo bởi Minh Hải.
-    `}</p>
-    <p>{`
-Dự án với sự tham gia của 15 diễn viên không chuyên, trong đó có 7 diễn viên là người khuyết tật, 7 diễn viên không khuyết tật và 1 người kể chuyện bằng ngôn ngữ ký hiệu.
-    `}</p>
-    <p>{`
-Tác phẩm là một quá trình làm việc, trao đổi và chia sẻ từ những người có cách thức di chuyển, nói chuyện hoàn toàn khác nhau từ đó dẫn tới thấu hiểu về mặt cơ thể, giao tiếp và chuyển hoá nó thành chuyển động.
-    `}</p>
-    <p>{`
-Vở diễn được diễn ra tại không gian tâm linh văn hoá vô cùng quan trọng tại Hà Nội - Đình Kim Liên với âm thanh và trang phục hoà lẫn, tạo nên một vở diễn đầy chất thơ, giàu hình ảnh và vô cùng thuyết phục. Tái hiện một câu chuyện dân gian mang tính đương đại trước mắt khán giả tại Hà Nội
-    `}</p>
-    <br />
-    <p>{`
-Vở diễn Cóc kiện Zời 2025 thuộc dự án nghệ thuật bao hàm (đồng hành cùng viện Goethe và DP Hanoi) nhằm tạo ra một không gian chuyển động sáng tạo và kết nối cho cộng đồng người khuyết tật và người không khuyết tật
-    `}</p>
-    <br />
-    <br />
-    <p>{`
-Cóc Kiện Zời” is a contemporary dance performance inspired by the Vietnamese folktale “Cóc kiện Giời” (“The Toad That Sued The Celestial Emperor”), directed and choreographed by Minh Hai.
+“Cóc Kiện Zời” is a contemporary dance performance inspired by the Vietnamese folktale “Cóc kiện Giời” (“The Toad That Sued The Celestial Emperor”), directed and choreographed by Minh Hai.
     `}</p>
     <p>{`
 The project brings together 15 non-professional performers, including seven performers with disabilities, seven without disabilities, and one storyteller using sign language.
@@ -68,37 +50,24 @@ Cóc Kiện Zời 2025  presented under the Inclusive Arts Program of the Goethe
 
 const credits = (
   <>
-    <pre>{`
-Director, Choreographer:  Minh Hải
-Music: Thuận Ngọc Hòa, Oanh Bùi 
-Lighting Designer: Pen 
-Costume Sponsor: Cổ Trang Đại Việt Quán 
-Makeup Artist: Haleeta Makeup 
-Visual Artist: Jeetzdung 
-    `}</pre>
-    <p>{`Performers: Trịnh Thị Thủy – Hoàng Diệu Linh – Khánh Vi – Hoàng Nam – Nhật Linh – Thảo Nhi – Điện Quang – Lang Trần – Sim – Quỳnh Phương – Minh Tâm – Đan Ca – Đan Sâm – Thiên Hân`}</p>
-    <br />
-    <p>{`Supporting Performers: Bùi Thị Hải Yến – Tạ Đức Anh Tuấn – Lê Ngọc Diễm Quỳnh – Trần Nam Hoàng – Nguyễn Khánh Huyền – Nguyễn Quỳnh Anh – Lê Quang Nam – Nguyễn Mai Trang`}</p>
-    <br />
-    <p>Main Partner and Sponsor: Goethe-Institut Hanoi</p>
-    <ul>
-      <li style={{ listStylePosition: "inside" }}>Producing Organization: Kinergie Studio</li>
-      <li style={{ listStylePosition: "inside" }}>Project Manager: Huyền M. Hoàng</li>
-      <li style={{ listStylePosition: "inside" }}>Project Assistant: Quỳnh Quỳnh</li>
-      <li style={{ listStylePosition: "inside" }}>Communications Coordinators: Muối, Na</li>
-      <li style={{ listStylePosition: "inside" }}>Logistics Coordinator: Phạm Tuấn Đạt</li>
-      <li style={{ listStylePosition: "inside" }}>Costume Design Assistant: Cẩm Tú</li>
-    </ul>
-    <br />
-    <p>Photography & Media</p>
-    <ul>
-      <li style={{ listStylePosition: "inside" }}>Minh Trang, Phong</li>
-    </ul>
-    <br />
-    <p>Supporting Partners</p>
-    <ul>
-      <li style={{ listStylePosition: "inside" }}>Kim Liên Temple & Communal House Site Management Board</li>
-      <li style={{ listStylePosition: "inside" }}>Hanoi Disabled People’s Association (DP Hanoi)</li>
+    <ul style={{ paddingLeft: "24px" }}>
+      <li><strong >Director, Choreographer:</strong> Minh Hải</li>
+      <li><strong >Music:</strong> Thuận Ngọc Hòa, Oanh Bùi</li>
+      <li><strong >Lighting Designer:</strong> Pen</li>
+      <li><strong >Costume Sponsor:</strong> Cổ Trang Đại Việt Quán</li>
+      <li><strong >Makeup Artist:</strong> Haleeta Makeup</li>
+      <li><strong >Visual Artist:</strong> Jeetzdung</li>
+      <li><strong >Performers:</strong> Trịnh Thị Thủy – Hoàng Diệu Linh – Khánh Vi – Hoàng Nam – Nhật Linh – Thảo Nhi – Điện Quang – Lang Trần – Sim – Quỳnh Phương – Minh Tâm – Đan Ca – Đan Sâm – Thiên Hân</li>
+      <li><strong >Supporting Performers:</strong> Bùi Thị Hải Yến – Tạ Đức Anh Tuấn – Lê Ngọc Diễm Quỳnh – Trần Nam Hoàng – Nguyễn Khánh Huyền – Nguyễn Quỳnh Anh – Lê Quang Nam – Nguyễn Mai Trang</li>
+      <li><strong >Main Partner and Sponsor:</strong> Goethe-Institut Hanoi</li>
+      <li><strong >Producing Organization:</strong> Kinergie Studio</li>
+      <li><strong >Project Manager:</strong> Huyền M. Hoàng</li>
+      <li><strong >Project Assistant:</strong> Quỳnh Quỳnh</li>
+      <li><strong >Communications Coordinators:</strong> Muối, Na</li>
+      <li><strong >Logistics Coordinator:</strong> Phạm Tuấn Đạt</li>
+      <li><strong >Costume Design Assistant:</strong> Cẩm Tú</li>
+      <li><strong >Photography & Media:</strong> Minh Trang, Phong</li>
+      <li><strong >Supporting Partners:</strong> Kim Liên Temple & Communal House Site Management Board, Hanoi Disabled People’s Association (DP Hanoi)</li>
     </ul>
   </>
 );
