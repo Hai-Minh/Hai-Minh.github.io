@@ -65,6 +65,7 @@ export default function WorkshopItemDetails() {
 export async function getStaticPaths() {
     return {
         paths: [
+            { params: { slug: 'cubist-perspectives' } },
             { params: { slug: 'mother-and-child' } },
             { params: { slug: 'drawing-and-movement' } },
             { params: { slug: 'street-movement' } },

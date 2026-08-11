@@ -5,6 +5,7 @@ import MovingWithSpace from './moving-with-space';
 import StreetMovement from './street-movement';
 import DrawingAndMovement from './drawing-and-movement';
 import MotherAndChild from './mother-and-child';
+import CubistPerspectives from './cubist-perspectives';
 
 const WorkshopData = {
     "release-and-connect": ReleaseAndConnect,
@@ -13,7 +14,8 @@ const WorkshopData = {
     "moving-with-space": MovingWithSpace,
     "street-movement": StreetMovement,
     "drawing-and-movement": DrawingAndMovement,
-    "mother-and-child": MotherAndChild
+    "mother-and-child": MotherAndChild,
+    "cubist-perspectives": CubistPerspectives
 };
 
 export default WorkshopData;

@@ -56,11 +56,18 @@ export default function WorkshopPage() {
                                 content={`A family bonding workshop through creative movement`}
                                 detailsUrl="/workshops/details/mother-and-child"
                             />
-                        </PerformanceItem> 
+                        </PerformanceItem>
+                        <PerformanceItem>
+                            <PerformanceItemContent
+                                imageSrc="/images/cubist-perspectives/image_0.jpg"
+                                title={`Journey Through The Art World: Cubist Perspectives`}
+                                content={`In collaboration with Hoa Tam Art Center`}
+                                detailsUrl="/workshops/details/cubist-perspectives"
+                            />
+                        </PerformanceItem>
                     </div>
                 </div>
             </div>
         </SideNavigation>
     );
 }
-
