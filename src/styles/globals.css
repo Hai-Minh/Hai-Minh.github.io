@@ -1,3 +1,8 @@
+:root {
+    --background-primary: #FBFBFB;
+    --text-primary: #1A1A1D;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +12,9 @@
 
 html,
 body {
-    background: #f5f5f5;
+    background: var(--background-primary);
 }
 
 a {
-    color: #f5f5f5;
+    color: var(--text-primary);
 }

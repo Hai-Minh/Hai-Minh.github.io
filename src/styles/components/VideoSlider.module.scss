@@ -30,13 +30,13 @@
     height: 4px;
     width: 20px;
     margin: 0 2px;
-    background-color: #666;
+    background-color: #66666633;
     border-radius: 4px;
     display: inline-block;
     transition: background-color 0.6s ease;
 
     &.active {
-        background-color: #fff;
+        background-color: #666;
     }
 }
 

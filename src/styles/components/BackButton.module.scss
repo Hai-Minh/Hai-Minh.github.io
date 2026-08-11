@@ -8,7 +8,7 @@
             &::after {
                 content: 'Back';
                 display: inline-block;
-                color: #fff;
+                color: var(--text-primary);
                 transform: translate(6px, -6px);
             }
         }
